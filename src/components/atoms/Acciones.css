@@ -1,0 +1,20 @@
+.AccionClass{
+    font-weight: 400;
+    width: 20%;
+    text-align: center;
+    margin: 20px;
+}
+
+.AccionClass h1{
+    font-size: 100px;
+    color: #327f40;
+}
+
+.AccionClass .TitleClass{
+    font-size: 30px;
+}
+.AccionClass div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

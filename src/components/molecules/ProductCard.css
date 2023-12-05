@@ -1,0 +1,42 @@
+.PCClass{
+    background: #cfcfcf;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    height: 500px;
+    width: 30%;
+    margin: 10px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.PCClass:hover .imageClassPC{
+    height: 60%;
+}
+
+.imageClassPC{
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: .3s;
+}
+
+.PCClass .productsTitleClass{
+    font-weight: 400;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.PPClassImg{
+    width: 100%;
+}
+
+.PCClass .productsContClass{
+    font-weight: 400;
+    margin: 0 20px;
+    font-size: 22px;
+}

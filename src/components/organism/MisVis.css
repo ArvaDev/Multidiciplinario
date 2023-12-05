@@ -1,0 +1,8 @@
+.MisVisClass{
+    height: 40vh;
+    width: 100%;
+    background: #3c8a4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

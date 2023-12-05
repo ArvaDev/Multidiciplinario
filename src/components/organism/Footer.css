@@ -1,0 +1,44 @@
+.FooterClass{
+    background: #3c8a4d;
+}
+
+.FooterClassCont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FooterClass h4{
+    display: block;
+    color: white;
+}
+
+.FooterClassInfo{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    margin: 30px;
+}
+
+.FooterClassInfo h2{
+    font-size: 30px;
+    margin: 10px 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.FooterClassInfo p{
+    color: white;
+}
+
+.FooterClass .FooterClassP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #275932;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+}

@@ -1,0 +1,29 @@
+.AboutClass {
+    width: 100%;
+}
+.ContClassAbout{
+    position: relative;
+    left: 25%;
+    width: 50%;
+    margin: 100px 0;
+    text-align: center;
+}
+.AboutClass p {
+    margin: 10px;
+}
+
+.AboutTitle {
+    font-size: 40px;
+}
+
+.AboutCont {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.AccionesClass{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

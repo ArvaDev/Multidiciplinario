@@ -1,0 +1,16 @@
+.HypervinClass{
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 16px;
+    transition: .5s;
+}
+a{
+    text-decoration: none;
+}
+.HypervinClass:hover{
+    color: black;
+}

@@ -1,0 +1,14 @@
+.BtnClass{
+    height: 40px;
+    width: 100%;
+    background: black;
+    border: black 1px solid;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: .2s;
+}
+.BtnClass:hover{
+    background: white;
+    color: black;
+}

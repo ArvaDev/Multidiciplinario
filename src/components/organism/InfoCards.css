@@ -1,0 +1,11 @@
+.InfoClass{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #cacaff, #ffffff);
+}
+.InfoClass h1{
+    margin: 0 10%;
+    font-size: 70px;
+    font-weight: 400;
+}

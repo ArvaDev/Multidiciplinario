@@ -1,0 +1,31 @@
+.FormClass{
+    display: block;
+    text-align: center;
+}
+.FormClassCont{
+    position: relative;
+    margin: 30px 0;
+    width: 60%;
+    left: 20%;
+}
+.FormClassCont h1{
+    margin: 40px;
+    font-weight: 300;
+    font-size: 30px;
+}
+.FooterClassContCopy{
+    height: 30vh;
+    width: 100%;
+    background: #efefef;
+    display: inline-block;
+    text-align: center;
+    color: black;
+}
+.FooterClassContCopy p{
+    margin: 40px 0;
+    font-weight: 200;
+}
+a{
+    font-size: 30px;
+    color: black;
+}

@@ -1,0 +1,43 @@
+.ImageCardClass{
+    margin: 100px;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    background: white;
+}
+.ContText{
+    width: 60%;
+    margin: 0 90px;
+}
+.ImageCardClass .title{
+    font-size: 50px;
+}
+.ImageCardClass .cont{
+    text-align: justify;
+    color: #3f3f3f;
+    font-size: 20px;
+    line-height: 1.5;    
+    margin: 10px 0;
+}
+.ImgClass{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100%;
+    width: 40%;
+    overflow: hidden;
+}
+.ImgClass img{
+    height: 100%;
+}
+.InvImgClass{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100%;
+    width: 40%;
+    overflow: hidden;
+}
+.InvImgClass img{
+    height: 100%;
+}

@@ -1,0 +1,29 @@
+.Ubication{
+    background: #d4d4e3;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    justify-content: center;
+}
+.Ubication div{
+    margin: 20px;
+}
+.UbData{
+    display: inline-block;
+    width: 20%;
+}
+.UbMap{
+    width: 40%;
+}
+.UbData h3{
+    margin: 20px 0;
+    font-weight: 300;
+}
+.UbData h2{
+    width: 100%;
+    font-weight: 400;
+    color: #6f6f6f;
+}

@@ -1,0 +1,36 @@
+.AboutPageClass{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.AContainClass{
+    display: flex;
+    justify-content: center;
+}
+.info{
+    width: 45%;
+    text-align: justify;
+    margin: 50px 70px;
+}
+.info p{
+    font-size: 20px;
+    color: #3f3f3f;
+    line-height: 1.5;
+}
+.AboutPageClass .Title{
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+    background: #3c8a4d;
+}
+.ImagesAClass{
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+.AboutPageClass h3{
+    font-size: 50px;
+    margin: 20px;
+    font-weight: 300;
+}

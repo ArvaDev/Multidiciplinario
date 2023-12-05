@@ -1,0 +1,28 @@
+.CardClass{
+    height: 90%;
+    width: 30%;
+    margin: 100px;
+}
+.CardCent{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+.CardTitle{
+    margin: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    border-bottom: 2px solid #ffffff22;
+}
+.CardCont{
+    color: white;
+    font-weight: 400;
+    text-align: justify;
+    margin: 40px 20px;
+    line-height: 2;
+    font-size: 14px;
+}

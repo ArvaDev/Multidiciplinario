@@ -1,0 +1,10 @@
+.ProductClass .PCClassItems{
+    display: inline-block;
+    text-align: center;
+}
+
+.ProductClass .PCClassNP{
+    font-size: 60px;
+    font-weight: 300;
+    margin: 30px 20px;
+}

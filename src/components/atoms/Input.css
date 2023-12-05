@@ -1,0 +1,13 @@
+.InputClass{
+    color: black;
+    border: none;
+    height: 50px;
+    padding-left: 2%;
+    width: 98%;
+    border-bottom: solid black 1px;
+    outline: none;
+    margin: 10px 0;
+}
+.InputClass:hover{
+    border: solid black 1px;
+}

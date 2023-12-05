@@ -1,0 +1,25 @@
+.ProductoCalClass{
+    background: #c1c1c1;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.ProductoCalClass .Column{
+    width: 30%;
+    margin: 0 20px;
+    padding: 20px;
+}
+.Column h2{
+    font-weight: 500;
+    color: #2f2f2f;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.Column p{
+    font-weight: 300;
+    font-size: 18px;
+    margin: 5px 10px;
+}
