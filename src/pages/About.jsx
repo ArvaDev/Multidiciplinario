@@ -1,4 +1,5 @@
 import './About.css';
+import MenuHeader from '../components/organism/MenuHeader';
 import { data } from '../assets/data/data';
 import Btn from '../components/atoms/Btn';
 import Img from '../components/atoms/Img';
@@ -14,25 +15,28 @@ import img7 from '../assets/imgs/m2.jpeg';
 function About() {
 
     return (
-        <div className='AboutPageClass'>
-            <p className='Title'>{data.AcercaDe.titulo}</p>
-            <div className='AContainClass'>
-                <div className='info'>
-                    <h3>Historia</h3>
-                    <p>{data.AcercaDe.cont}</p>
-                    <Btn url="/Home" text="Volver" />
-                </div>
-                <div className='ImagesAClass'>
-                    <Img url={img1}/>
-                    <Img url={img2}/>
-                    <Img url={img3}/>
-                    <Img url={img4}/>
-                    <Img url={img5}/>
-                    <Img url={img6}/>
-                    <Img url={img7}/>
+        <>
+            <MenuHeader/>
+            <div className='AboutPageClass'>
+                <p className='Title'>{data.AcercaDe.titulo}</p>
+                <div className='AContainClass'>
+                    <div className='info'>
+                        <h3>Historia</h3>
+                        <p>{data.AcercaDe.cont}</p>
+                        <Btn url="/Home" text="Volver" />
+                    </div>
+                    <div className='ImagesAClass'>
+                        <Img url={img1} />
+                        <Img url={img2} />
+                        <Img url={img3} />
+                        <Img url={img4} />
+                        <Img url={img5} />
+                        <Img url={img6} />
+                        <Img url={img7} />
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 

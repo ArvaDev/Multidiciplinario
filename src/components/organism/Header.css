@@ -12,23 +12,12 @@
 .HeaderClass p{
     position: absolute;
     color: white;
-    top: 23%;
+    font-family: 'font_1';
+    top: 40%;
     left: 20%;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 75px;
     width: 60%;
-    text-align: center;
-    z-index: 1;
-}
-
-.HeaderClass .HeaderMenu{
-    font-family: Bai Jumjuree;
-    position: absolute;
-    color: white;
-    top: 20px;
-    font-weight: 400;
-    font-size: 18px;
-    width: 100%;
     text-align: center;
     z-index: 1;
 }

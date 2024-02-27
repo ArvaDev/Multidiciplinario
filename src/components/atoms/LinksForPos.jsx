@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import './LinksForPos.css'
 
-function LinksForPos({url, text}) {
+function LinksForPos({url, text, tColor}) {
     return ( 
         <Link to={url}>
-            <a className="HypervinClass">{text}</a>
+            <a className="HypervinClass" style={{color: tColor}}>{text}</a>
         </Link>
     );
 }

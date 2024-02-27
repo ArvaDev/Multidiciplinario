@@ -1,17 +1,55 @@
-.ImageCardClass{
-    margin: 100px;
-    height: 70vh;
+.ImageCardTotalContainer{
+    width: 100%;
+    height: 100vh;
+    margin: 50px 0;
+    overflow: hidden;
+}
+
+.ImageCardTotalContainer .ImageCardClass{
+    position: relative;
+    left: 5%;
+    top: 10%;
+    width: 90%;
     display: flex;
     align-items: center;
+    text-align: left;
+    overflow: hidden;
     background: white;
 }
+
+.ImageCardTotalContainer .imgDem{
+    height: 100%;
+}
+
+.ImageCardTotalContainer .imgBG{
+    position: relative;
+    opacity: 0.5;
+    z-index: -1;
+    left: 0;
+    bottom: 100%;
+    width: 100%;
+    height: 1000px;
+}
 .ContText{
-    width: 60%;
-    margin: 0 90px;
+    width: 90%;
+    padding: 20px 40px;
+    margin: 0 20px;
 }
 .ImageCardClass .title{
+    font-weight: 100;
     font-size: 50px;
+    font-family: 'font_1';
 }
+
+.ImageCardClass .BtnContainer
+{
+    display: flex;
+    margin: 30px 0;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .ImageCardClass .cont{
     text-align: justify;
     color: #3f3f3f;
@@ -24,20 +62,18 @@
     align-items: center;
     justify-content: left;
     height: 100%;
-    width: 40%;
+    width: 50%;
     overflow: hidden;
 }
-.ImgClass img{
+.ImgClass .imgIcon{
     height: 100%;
 }
 .InvImgClass{
+    background: #efefef;
     display: flex;
     align-items: center;
     justify-content: right;
     height: 100%;
-    width: 40%;
+    width: 50%;
     overflow: hidden;
-}
-.InvImgClass img{
-    height: 100%;
 }

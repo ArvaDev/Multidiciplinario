@@ -1,7 +1,7 @@
 export const data = {
     header: {
         titulo: "PIMIENTA JOTIQUEZ S.C.L.",
-        menu: ["Inicio", "Conocenos", "Acerca de", "Contacto", "Promocionar", "Blog"]
+        menu: ["Inicio", "Acerca de", "Producción", "Productos", "Tienda online", "Socios", "Contactos"]
     },
     About: {
         titulo: "¿Quiénes somos?",
@@ -13,9 +13,9 @@ export const data = {
             "Es trascender como un referente ejemplar en el ámbito de la producción agrícola sostenible, consolidando nuestro compromiso con la excelencia, la equidad y la innovación. Al aspirar a seguir creciendo."]
     },
     AcercaDe: {
-        titulo: "Acerca de",
+        titulo: "Historia",
         cont: "La CooperativaPimienta Jotiquetz, fundada en 1984 por 4 socios campesinos, surgió como respuesta a la necesidad de mejorar las condiciones de comercialización de la pimienta y el café en un contexto donde el intermediarismo comercial prevalecía. Obtuvimos los permisos correspondientes de la Secretaría de Trabajo para consolidarnos como una entidad legalmente reconocida. En ese periodo, los agricultores enfrentaban dificultades financieras y altas tasas de interés en préstamos, lo que los llevaba a vender sus productos a compradores informales que imponían precios injustos. La creación de la Cooperativa Pimienta Jotiquetz marcó un quiebre en este ciclo, permitiéndonos acceder a financiamiento de entidades nacionales y establecer las bases para una producción ecológica y un compromiso social comunitario. Nuestra cooperativa se erige como un ejemplo de organización campesina dedicada a la producción, certificación, acopio y comercialización de pimienta y café cultivada bajo procesos horganicos. Actualmente, contamos con 19 socios y colaboramos con más de 419 pequeños productores independientes. En nuestros 39 años de operación, la Cooperativa Pimienta Jotiquetz ha consolidado su posición como una empresa líder con numerosos casos de éxito. Hemos establecido relaciones sólidas con más de 25 empresas a nivel nacional e internacional, respaldadas por el comercio justo. La calidad excepcional de nuestros productos y la confiabilidad de nuestra empresa han sido fundamentales para mantener relaciones duraderas con clientes en diversos mercados. Nuestra visión va más allá del éxito comercial; nos esforzamos por continuar siendo un referente en sostenibilidad, responsabilidad social y calidad. La Cooperativa Pimienta Jotiquetz sigue comprometida con la mejora continua, la expansión consciente y el impacto positivo en la comunidad agrícola y más allá.",
-        resum: "La Cooperativa Pimienta Jotiquetz, fundada en 1984 por 42 socios campesinos, surgió como respuesta a la necesidad de mejorar las condiciones de comercialización de la pimienta y el café en un contexto donde el intermediarismo comercial prevalecía. Obtuvimos los permisos correspondientes de la Secretaría de Trabajo para consolidarnos como una entidad legalmente reconocida.",
+        resum: "Historia: La Cooperativa Pimienta Jotiquetz, fundada en 1984 por 43 socios campesinos, surgió como respuesta a la necesidad de mejorar las condiciones de comercialización de la pimienta y el café en un contexto donde el intermediarismo comercial prevalecía. Obtuvimos los permisos correspondientes de la Secretaría de Trabajo para consolidarnos como una entidad legalmente reconocida. En ese periodo, los agricultores enfrentaban dificultades financieras y altas tasas de interés en préstamos, lo que los llevaba a vender sus productos a compradores informales que imponían precios injustosLa creación de la Cooperativa Pimienta Jotiquetz marcó un quiebre en este ciclo, permitiéndonos acceder a financiamiento de entidades nacionales y establecer las bases para una producción ecológica y un compromiso social comunitario. Nuestra cooperativa se erige como un ejemplo de organización campesina dedicada a la producción, certificación, acopio y comercialización de pimienta y café orgánico",
     },
     ProductosInsignia: {
         PimientaGorda:{
@@ -62,5 +62,9 @@ export const data = {
         region: "Región Zoque de Mezcalapa al noroeste de chiapas.",
         altura: "450 a 1600 msnm.",
         precentacion: "sacos de 25 y 50 kls."
+    },
+    footer:{
+        localidades: ["Copainala, Chiapas", "Tuxtla Gutierrez, Chiapas", "Ciudad de México"],
+        legalidad: ["Terminos y Condiciones", "Privacidad", "Ayuda"]
     }
 }

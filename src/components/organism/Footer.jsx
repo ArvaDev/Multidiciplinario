@@ -7,18 +7,21 @@ function Footer() {
         <div className='FooterClass'>
             <div className='FooterClassCont'>
                 <div className='FooterClassInfo'>
-                    <h2>Sitio</h2>
-                    <LinksForPos text={data.header.menu[0]} url="/Home"/>
-                    <LinksForPos text={data.header.menu[1]}/>
-                    <LinksForPos text={data.header.menu[2]} url="/About"/>
-                    <LinksForPos text={data.header.menu[3]} url="/Form"/>
-                    <LinksForPos text={data.header.menu[4]}/>
+                    <p className='titleFoot'>Quienes somos</p>
+                    <LinksForPos text={data.header.menu[1]} tColor="white"/>
+                    <LinksForPos text={data.header.menu[2]} url="/About" tColor="white"/>
                 </div>
                 <div className='FooterClassInfo'>
-                    <h2>Contacto</h2>
-                    <p>{data.SiteData.Correo}</p>
-                    <p>{data.SiteData.Dir}</p>
-                    <p>{data.SiteData.Tel}</p>
+                    <p className='titleFoot'>Localidades</p>
+                    <p>{data.footer.localidades[0]}</p>
+                    <p>{data.footer.localidades[1]}</p>
+                    <p>{data.footer.localidades[2]}</p>
+                </div>
+                <div className='FooterClassInfo'>
+                    <p className='titleFoot'>Información legal</p>
+                    <LinksForPos text={data.footer.legalidad[0]} tColor="white"/>
+                    <LinksForPos text={data.footer.legalidad[1]} tColor="white"/>
+                    <LinksForPos text={data.footer.legalidad[2]} tColor="white"/>
                 </div>
             </div>
             

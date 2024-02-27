@@ -6,9 +6,12 @@
     color: white;
     cursor: pointer;
     margin: 10px 0;
-    transition: .2s;
+
+    transition: .5s;
 }
+
 .BtnClass:hover{
-    background: white;
+    border: solid black 1px;
     color: black;
+    background: white;
 }

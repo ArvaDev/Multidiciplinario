@@ -3,16 +3,19 @@ import InverseImageCard from "../molecules/InverseImageCard";
 import { data } from "../../assets/data/data";
 import './InfoCards.css'
 
-import img2 from '../../assets/imgs/m11.jpeg'
-import img3 from '../../assets/imgs/m17.jpeg'
+import img1 from '../../assets/imgs/m11.jpeg'
+import imgIcon1 from '../../assets/imgs/Imagenes pequeñas/cafe.jpeg'
+import imgBG1 from '../../assets/imgs/m20.jpeg'
+import img2 from '../../assets/imgs/m17.jpeg'
+import imgIcon2 from '../../assets/imgs/Imagenes pequeñas/pimienta.jpeg'
+import imgBG2 from '../../assets/imgs/m19.jpeg'
 
 function InfoCards() {
     return ( 
         <div className="InfoClass">
-            <ImageCard titulo={data.AcercaDe.titulo} cont={data.AcercaDe.resum} url="/About"/>
-            <h1>Producción</h1>
-            <InverseImageCard titulo={data.ProductosInsignia.PimientaGorda.titulo} cont={data.ProductosInsignia.PimientaGorda.resum} image={img2} url="/Pimienta"/>
-            <ImageCard titulo={data.ProductosInsignia.Cafe.titulo} cont={data.ProductosInsignia.Cafe.resum} image={img3} url="/Cafe"/>
+            <p>Producción</p>
+            <InverseImageCard imageBG={imgBG1} imageIcon={imgIcon2} btnColor="#B76E28" titulo={data.ProductosInsignia.PimientaGorda.titulo} cont={data.ProductosInsignia.PimientaGorda.resum} image={img1} url="/Pimienta"/>
+            <ImageCard imageBG={imgBG2} imageIcon={imgIcon1} btnColor="#B76E28" titulo={data.ProductosInsignia.Cafe.titulo} cont={data.ProductosInsignia.Cafe.resum} image={img2} url="/Cafe"/>
         </div>
     );
 }
