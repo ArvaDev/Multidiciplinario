@@ -5,11 +5,17 @@
 .FormClass .totalFormContainer{
     margin-top: 14vh;
 }
+.formSection{
+    display: flex;
+}
+.locationCard{
+    width: 30%;
+}
 .FormClassCont{
     position: relative;
     margin: 30px 0;
     width: 60%;
-    left: 20%;
+    left: 5%;
 }
 .FormClassCont h1{
     margin: 40px;

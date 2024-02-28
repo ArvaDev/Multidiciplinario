@@ -1,0 +1,15 @@
+.iconCard .cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px 0;
+    color: black;
+}
+.iconCard .cont p{
+    margin: 0 50px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 2;
+    width: 50%;
+}
