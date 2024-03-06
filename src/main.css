@@ -8,3 +8,8 @@
     font-family:'font_1';
     src: url('../src/assets/fonts/Namdhinggo-Regular.ttf') format('truetype');
 }
+
+@font-face {
+    font-family:'font_2';
+    src: url('../src/assets/fonts/DancingScript-Regular.ttf') format('truetype');
+}
