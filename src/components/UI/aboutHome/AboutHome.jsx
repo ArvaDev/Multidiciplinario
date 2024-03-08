@@ -1,13 +1,11 @@
 import './AboutHome.css'
 import Actions from '../actions/Actions';
-import { data } from '../../../assets/data/data'
-
+import { data } from "../../../utils/data/data";
 import { IoPeople } from "react-icons/io5";
 import { IoChatbubblesSharp } from "react-icons/io5";
 import { MdRecordVoiceOver } from "react-icons/md";
 import { AiFillLike } from "react-icons/ai";
-
-function About() {
+export default function About() {
     return (
         <div className="AboutClass">
             <div className='ContClassAbout'>
@@ -24,5 +22,3 @@ function About() {
         </div>
     );
 }
-
-export default About;

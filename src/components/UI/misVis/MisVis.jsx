@@ -1,6 +1,6 @@
 import Card from '../card/Card'
 import './MisVis.css'
-import { data } from '../../../assets/data/data'
+import { data } from "../../../utils/data/data";
 
 function MisVis() {
     return (  

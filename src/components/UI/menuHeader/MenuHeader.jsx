@@ -1,6 +1,6 @@
 import LinksForPos from '../linkForPos/LinksForPos'
 import './MenuHeader.css'
-import { data } from '../../../assets/data/data'
+import { data } from '../../../utils/data/data'
 
 function MenuHeader() {
     return (

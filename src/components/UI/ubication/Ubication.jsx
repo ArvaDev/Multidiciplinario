@@ -1,5 +1,5 @@
 import './Ubicacion.css'
-import { data } from '../../../assets/data/data'
+import { data } from '../../../utils/data/data'
 
 import { FaFacebook } from "react-icons/fa";
 import Map from '../map/Map'

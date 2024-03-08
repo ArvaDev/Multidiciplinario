@@ -1,14 +1,13 @@
 import './PimientaCafe.css'
 import ImageCard from "../imageCard/ImageCard";
 import InverseImageCard from "../inverseImageCard/InverseImageCard"
-import { data } from "../../../assets/data/data";
 import img1 from '../../../assets/imgs/m11.jpeg'
 import imgIcon1 from '../../../assets/imgs/Imagenes pequeñas/cafe.jpeg'
 import imgBG1 from '../../../assets/imgs/m20.jpeg'
 import img2 from '../../../assets/imgs/m17.jpeg'
 import imgIcon2 from '../../../assets/imgs/Imagenes pequeñas/pimienta.jpeg'
 import imgBG2 from '../../../assets/imgs/m19.jpeg'
-
+import { data } from "../../../utils/data/data";
 function InfoCards() {
     return ( 
         <div className="InfoClass">

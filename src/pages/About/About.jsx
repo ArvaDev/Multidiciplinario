@@ -1,8 +1,7 @@
 import './About.css';
 import MenuHeader from '../../components/UI/menuHeader/MenuHeader';
-import { data } from '../../assets/data/data';
-import Btn from '../../components/UI/Btn/Btn';
-
+import { data } from '../../utils/data/data'
+import Btn from '../../components/UI/btn/Btn';
 import img1 from '../../assets/imgs/m12.jpeg';
 import imgIcon1 from '../../assets/imgs/Imagenes pequeñas/pimienta.jpeg'
 import imgIcon2 from '../../assets/imgs/Imagenes pequeñas/cafe.jpeg'

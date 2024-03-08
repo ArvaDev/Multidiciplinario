@@ -1,6 +1,6 @@
 import InverseImageCard from "../inverseImageCard/InverseImageCard";
 import img1 from '../../../assets/imgs/m12.jpeg'
-import {data} from '../../../assets/data/data'
+import { data } from '../../../utils/data/data'
 function HistoriaCard() {
     return (
         <div className="HistoriaContainer">

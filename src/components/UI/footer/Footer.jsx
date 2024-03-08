@@ -1,5 +1,5 @@
 import './Footer.css'
-import { data } from '../../../assets/data/data'
+import { data } from '../../../utils/data/data'
 import LinksForPos from '../linkForPos/LinksForPos'
 
 function Footer() {

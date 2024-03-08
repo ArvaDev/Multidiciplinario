@@ -2,8 +2,7 @@ import './Cafe.css'
 import image from '../../assets/imgs/m16.jpeg'
 import Btn from '../../components/UI/btn/Btn'
 import ProductoCal from '../../components/UI/productoCal/ProductoCal'
-
-import { data } from '../../assets/data/data'
+import { data } from '../../utils/data/data'
 
 function Cafe() {
     return ( 

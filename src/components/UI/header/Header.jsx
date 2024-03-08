@@ -1,7 +1,6 @@
 import './Header.css'
 import image from '../../../assets/imgs/Copainala.jpg'
-
-import { data } from '../../../assets/data/data'
+import { data } from '../../../utils/data/data'
 
 function Header() {
     return (
