@@ -1,14 +1,12 @@
+import './main.css'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './main.css'
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
-import Home from './pages/home'
-import About from './pages/About';
-import Pimienta from './pages/Pimienta';
-import Cafe from './pages/Cafe';
-import Forms from './pages/Form';
+import Home from './pages/Home/Home'
+import About from './pages/About/About';
+import Pimienta from './pages/Pimienta/Pimienta';
+import Cafe from './pages/Cafe/Cafe';
+import Forms from './pages/Form/Form';
 import Production from './pages/Productos/Productos';
 
 const router = createBrowserRouter([

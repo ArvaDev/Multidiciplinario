@@ -1,5 +1,5 @@
 import './ProductCard.css'
-import Btn from '../../atoms/Btn'
+import Btn from '../Btn/Btn'
 export default function ProductCard({img, content, title}) {
     return (
         <div className="ProductCard">

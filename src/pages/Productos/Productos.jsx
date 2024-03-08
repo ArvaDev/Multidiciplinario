@@ -1,5 +1,5 @@
 import ProductCard from "../../components/UI/productCard/ProductCard";
-import MenuHeader from "../../components/organism/MenuHeader"
+import MenuHeader from "../../components/UI/menuHeader/MenuHeader"
 import './Productos.css'
 import img from "../../assets/imgs/m1.jpeg"
 export default function Productos() {
