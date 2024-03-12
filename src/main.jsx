@@ -8,6 +8,7 @@ import Pimienta from './pages/Pimienta/Pimienta';
 import Cafe from './pages/Cafe/Cafe';
 import Forms from './pages/Form/Form';
 import Production from './pages/Productos/Productos';
+import Tienda from './pages/Tienda/Tienda'
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/Productos",
     element: <Production/>
+  },
+  {
+    path: "/Tienda",
+    element: <Tienda/>
   }
 ]);
 
