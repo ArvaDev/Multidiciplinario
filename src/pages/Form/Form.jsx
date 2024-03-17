@@ -4,11 +4,7 @@ import Input from "../../components/UI/input/Input";
 import Map from "../../components/UI/map/Map"
 import TextArea from '../../components/UI/textArea/TextArea';
 import IconCard from '../../components/UI/iconCard/IconCard';
-import { FaFacebook } from "react-icons/fa";
-import { FaSearchLocation } from 'react-icons/fa';
-import { FaPhone } from 'react-icons/fa';
-import { FaMailBulk } from 'react-icons/fa';
-import { FaThumbsUp } from 'react-icons/fa';
+import { FaFacebook, FaSearchLocation, FaPhone, FaMailBulk, FaThumbsUp } from "react-icons/fa";
 export default function Forms() {
     return (
         <div className='FormClass'><MenuHeader />

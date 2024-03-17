@@ -1,6 +1,6 @@
 import './ImageCard.css'
 import Btn from '../btn/Btn'
-function ImageCard({ image, imageBG, imageIcon, cont, titulo, url, btnColor }) {
+function ImageCard({ image, imageBG, imageIcon, cont, titulo, url}) {
     return (
         <div className='ImageCardTotalContainer'>
             <div className="ImageCardClass">
@@ -11,7 +11,7 @@ function ImageCard({ image, imageBG, imageIcon, cont, titulo, url, btnColor }) {
                     <p className='title'>{titulo}</p>
                     <p className='cont'>{cont}</p>
                     <div className='BtnContainer'>
-                        <Btn text="Leer más" w="150px" color={btnColor} url={url} />
+                        <Btn text="Leer más" url={url} cssClass="CardImgBtn" />
                         <img className='imgIcon' src={imageIcon} height="100"></img>
                     </div>
                 </div>

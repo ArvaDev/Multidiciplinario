@@ -17,6 +17,17 @@
     background: white;
 }
 
+.ImageCardTotalContainer .CardImgBtn{
+    background: #B76E28;
+    color: white;
+    border:#B76E28 1px solid;
+    width: 150px;
+}
+.ImageCardTotalContainerI .CardImgBtn:hover{
+    background: white;
+    color: #B76E28;
+}
+
 .ImageCardTotalContainer .imgDem{
     height: 100%;
 }

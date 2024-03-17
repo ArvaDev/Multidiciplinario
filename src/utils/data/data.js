@@ -1,7 +1,7 @@
 export const data = {
     header: {
         titulo: "PIMIENTA JOTIQUEZ S.C.L.",
-        menu: ["Inicio", "Acerca de", "Producción", "Productos", "Tienda online", "Socios", "Contactos"]
+        menu: ["Inicio", "Acerca de", "Producción", "Productos", "Tienda online", "Contactos"]
     },
     About: {
         titulo: "¿Quiénes somos?",

@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import './Btn.css'
 
-function Btn({url, text, type, color = "black", w, cssClass}) {
+function Btn({url, text, type, cssClass}) {
     return (
         <Link to={url}>
-            <button className={cssClass + " BtnClass"} type={type} style={{background: color, border: color, width: w}}>{text}</button>
+            <button className={cssClass + " BtnClass"} type={type}>{text}</button>
         </Link>
     );
 }

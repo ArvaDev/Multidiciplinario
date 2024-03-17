@@ -12,8 +12,8 @@ function InfoCards() {
     return ( 
         <div className="InfoClass">
             <p>Producción</p>
-            <InverseImageCard imageBG={imgBG1} imageIcon={imgIcon2} btnColor="#B76E28" titulo={data.ProductosInsignia.PimientaGorda.titulo} cont={data.ProductosInsignia.PimientaGorda.resum} image={img1} url="/Pimienta"/>
-            <ImageCard imageBG={imgBG2} imageIcon={imgIcon1} btnColor="#B76E28" titulo={data.ProductosInsignia.Cafe.titulo} cont={data.ProductosInsignia.Cafe.resum} image={img2} url="/Cafe"/>
+            <InverseImageCard imageBG={imgBG1} imageIcon={imgIcon2} titulo={data.ProductosInsignia.PimientaGorda.titulo} cont={data.ProductosInsignia.PimientaGorda.resum} image={img1} url="/Pimienta"/>
+            <ImageCard imageBG={imgBG2} imageIcon={imgIcon1} titulo={data.ProductosInsignia.Cafe.titulo} cont={data.ProductosInsignia.Cafe.resum} image={img2} url="/Cafe"/>
         </div>
     );
 }
