@@ -1,5 +1,6 @@
-.PimientaClass{
+.CafeClass{
     background: #eeeeff;
+    font-family: 'avenir';
 }
 .ImageClassP{
     display: flex;
@@ -22,6 +23,9 @@
     left: 23%;
     width: 50%;
     background: #ffffff;
+}
+.ConatainerP p{
+    font-family: 'avenir';
 }
 .ConatainerP h1{
     color: black;

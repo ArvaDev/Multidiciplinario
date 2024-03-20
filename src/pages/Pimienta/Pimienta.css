@@ -1,5 +1,6 @@
 .PimientaClass{
     background: #eeeeff;
+    
 }
 .ImageClassP{
     display: flex;
@@ -19,12 +20,15 @@
     padding: 60px 20px;
     margin: 40px 0;
     text-align: justify;
-    left: 23%;
     width: 50%;
     background: #ffffff;
+}
+.ConatainerP p{
+    font-family: 'avenir';
 }
 .ConatainerP h1{
     color: black;
     font-weight: 500;
     margin: 30px;
+    font-family: 'avenir';
 }

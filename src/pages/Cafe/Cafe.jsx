@@ -6,7 +6,7 @@ import { data } from '../../utils/data/data'
 
 function Cafe() {
     return ( 
-        <div className="PimientaClass">
+        <div className="CafeClass">
             <div className="ImageClassP">
                 <img src={image}></img>
             </div>
