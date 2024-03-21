@@ -9,6 +9,7 @@ import Cafe from './pages/Cafe/Cafe';
 import Forms from './pages/Form/Form';
 import Production from './pages/Productos/Productos';
 import Tienda from './pages/Tienda/Tienda'
+import NoFound from './pages/NoFound/NoFound';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "/Tienda",
     element: <Tienda/>
+  },
+  {
+    path: "*",
+    element: <NoFound/>
   },
 ]);
 

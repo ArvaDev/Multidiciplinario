@@ -1,10 +1,12 @@
 .PimientaClass{
-    background: #eeeeff;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .ImageClassP{
     display: flex;
-    height: 35vh;
+    height: 25vh;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -14,21 +16,19 @@
     width: 100%;
 }
 .ConatainerP{
-    position: relative;
-    font-size: 20px;
-    line-height: 1.5;
-    padding: 60px 20px;
-    margin: 40px 0;
-    text-align: justify;
     width: 50%;
+    text-align: justify;
     background: #ffffff;
+    margin: 20px 0;
+    padding: 10px 20px;
 }
-.ConatainerP p{
+.ConatainerC p{
+    font-size: 15px;
     font-family: 'avenir';
 }
-.ConatainerP h1{
-    color: black;
+.ConatainerC h1{
+    text-align: center;
+    font-size: 25px;
     font-weight: 500;
-    margin: 30px;
     font-family: 'avenir';
 }

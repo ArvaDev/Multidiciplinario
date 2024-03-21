@@ -10,7 +10,7 @@ function Cafe() {
             <div className="ImageClassP">
                 <img src={image}></img>
             </div>
-            <div className='ConatainerP'>
+            <div className='ConatainerC'>
                 <h1>{data.ProductosInsignia.Cafe.titulo}</h1>
                 <p>{data.ProductosInsignia.Cafe.cont}</p>
                 <Btn url="/" text="Volver"/>
