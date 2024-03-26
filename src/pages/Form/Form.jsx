@@ -4,7 +4,7 @@ import Input from "../../components/UI/input/Input";
 import Map from "../../components/UI/map/Map"
 import TextArea from '../../components/UI/textArea/TextArea';
 import IconCard from '../../components/UI/iconCard/IconCard';
-import { FaFacebook, FaSearchLocation, FaPhone, FaMailBulk, FaThumbsUp } from "react-icons/fa";
+import { FaFacebook, FaSearchLocation, FaPhone, FaMailBulk } from "react-icons/fa";
 export default function Forms() {
     return (
         <div className='FormClass'><MenuHeader />
@@ -15,7 +15,6 @@ export default function Forms() {
                         <IconCard texto="calle primera oriente norte 136 barrio santa Ana Copainalá, Chiapas" icono={<FaSearchLocation/>}/>
                         <IconCard texto="968-661-1015 " icono={<FaPhone/>}/>
                         <IconCard texto="jotiquetz@yahoo.com.mx" icono={<FaMailBulk/>} />
-                        <IconCard texto={<a href='/'><FaFacebook/></a>} icono={<FaThumbsUp/>} />
                     </div>
                     <form className="FormClassCont">
                         <h1>Entremos en contacto</h1>
