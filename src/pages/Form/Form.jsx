@@ -18,8 +18,8 @@ export default function Forms() {
                     </div>
                     <form className="FormClassCont">
                         <h1>Entremos en contacto</h1>
-                        <Input placeholder="Ingrese su nombre" />
-                        <Input placeholder="Ingrese su e-mail" />
+                        <Input placeholder="Ingrese su nombre"/>
+                        <Input placeholder="Ingrese su e-mail"/>
                         <Input placeholder="Asunto"/>
                         <TextArea placeholder="Su mensaje" />
                         <button className='BtnClass' type="submit">Enviar</button>

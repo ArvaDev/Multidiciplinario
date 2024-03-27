@@ -1,17 +1,7 @@
 import './Carrusel.css'
 import { useState } from 'react';
 
-import Producto from "../producto/Producto";
-
-const componentes = [
-    <Producto nombre="Cafe" precio="32.5"/>,
-    <Producto nombre="Miel" precio="16.5"/>,
-    <Producto nombre="Pox" precio="43.0"/>,
-    <Producto nombre="Pimienta" precio="6.0"/>,
-    <Producto nombre="Té" precio="20.0"/>,
-]
-
-export default function Carrusel() {
+export default function Carrusel({componentes}) {
 
     const [cardIndex, setCardIndex] = useState(0);
 

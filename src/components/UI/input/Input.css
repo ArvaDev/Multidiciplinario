@@ -4,10 +4,7 @@
     height: 50px;
     padding-left: 2%;
     width: 98%;
-    border-bottom: solid black 1px;
-    border-top: solid white 1px;
-    border-left: solid white 1px;
-    border-right: solid white 1px;
+    border: solid black 1px;
     outline: none;
     margin: 10px 0;
 

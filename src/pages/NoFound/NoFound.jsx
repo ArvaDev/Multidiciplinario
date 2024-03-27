@@ -1,3 +1,4 @@
+import Lupa from '../../components/Animations/lupa/lupa';
 import './NoFound.css'
 export default function NoFound() {
     return (
@@ -6,12 +7,7 @@ export default function NoFound() {
             <p>Página no encontrada</p>
 
             <div className='Draw'>
-                <div className='Lupa'>
-                    <div className='Cabeza'>
-                        <div className='Agujero'></div>
-                    </div>
-                    <div className='Mango'></div>
-                </div>
+                <Lupa/>
             </div>
         </div>
     );
