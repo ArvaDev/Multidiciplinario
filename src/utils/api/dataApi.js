@@ -1,4 +1,4 @@
-export const dataApiExample = {
+export const dataApi = {
     p1: {
         nombre: "vino de 750 ml",
         precio: 85,

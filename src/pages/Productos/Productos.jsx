@@ -1,8 +1,12 @@
 import ProductCard from "../../components/UI/productCard/ProductCard";
 import MenuHeader from "../../components/UI/menuHeader/MenuHeader"
+import { dataApi } from '../../utils/api/dataApi'
 import './Productos.css'
-import img from "../../assets/imgs/m1.jpeg"
+
 export default function Productos() {
+
+    const keys = Object.keys(dataApi)
+
     return (
         <div className="Production">
             <MenuHeader />
@@ -10,11 +14,9 @@ export default function Productos() {
                 <p className="T">Los productos de PIMIENTA JOTIQUEZ S.C.L.</p>
                 <p className="C">La calidad es primero</p>
                 <div className="Products">
-                    {/* Estos son solo ejemplos, eliminar más tarde */}
-                    <ProductCard img={img} title="TYUIOP" content="dhvwirvniwhe ehfiwhe uwefuhweuf ue rfuwh euhf wefhwhfeo ewihfuwhefhef ofwhefhefh wieuhfwef ewhufegfw" />
-                    <ProductCard img={img} title="TYUIOP" content="dhvwirvniwhe ehfiwhe uwefuhweuf ue rfuwh euhf wefhwhfeo ewihfuwhefhef ofwhefhefh wieuhfwef ewhufegfw" />
-                    <ProductCard img={img} title="TYUIOP" content="dhvwirvniwhe ehfiwhe uwefuhweuf ue rfuwh euhf wefhwhfeo ewihfuwhefhef ofwhefhefh wieuhfwef ewhufegfw" />
-                    <ProductCard img={img} title="TYUIOP" content="dhvwirvniwhe ehfiwhe uwefuhweuf ue rfuwh euhf wefhwhfeo ewihfuwhefhef ofwhefhefh wieuhfwef ewhufegfw" />
+                    { keys.map(key => (
+                        <ProductCard img={dataApi[key].imagen} title={dataApi[key].nombre} content={dataApi[key].informacion}/>
+                    )) }
                 </div>
             </div>
         </div>
