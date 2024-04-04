@@ -1,20 +1,45 @@
-.AccionClass{
-    font-weight: 400;
-    width: 20%;
-    text-align: center;
-    margin: 20px;
+@media (min-width: 1244px) {
+    .AccionClass {
+        font-weight: 400;
+        width: 20%;
+        text-align: center;
+    }
+
+    .AccionClass h1 {
+        font-size: 100px;
+        color: #327f40;
+    }
+
+    .AccionClass .TitleClass {
+        font-size: 30px;
+    }
+
+    .AccionClass div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
-.AccionClass h1{
-    font-size: 100px;
-    color: #327f40;
-}
+/* móvil */
+@media (max-width: 1243px) {
+    .AccionClass {
+        font-weight: 400;
+        width: 40%;
+        text-align: center;
+        margin: 20px;
+    }
 
-.AccionClass .TitleClass{
-    font-size: 30px;
-}
-.AccionClass div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    .AccionClass h1 {
+        font-size: 55px;
+        color: #327f40;
+    }
+
+    .AccionClass .TitleClass {
+        font-size: 20px;
+    }
+
+    .AccionClass p {
+        font-size: 15px;
+    }
 }

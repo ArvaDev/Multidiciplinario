@@ -1,5 +1,6 @@
 import InverseImageCard from "../inverseImageCard/InverseImageCard";
 import img1 from '../../../assets/imgs/m12.jpeg'
+import './HistoriaCard.css'
 import { data } from '../../../utils/data/data'
 function HistoriaCard() {
     return (

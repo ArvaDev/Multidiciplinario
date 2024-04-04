@@ -1,23 +1,47 @@
-.HeaderClass{
-    height: 65vh;
-    width: 100%;
-    overflow: hidden;
+/* escritorio */
+@media (min-width: 1244px) {
+    .HeaderClass {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 65vh;
+        width: 100%;
+        overflow: hidden;
+        background-image: url(../../../assets/imgs/Copainala.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .HeaderClass p {
+        text-align: center;
+        color: white;
+        font-family: 'font_1';
+        font-weight: 400;
+        font-size: 75px;
+        width: 60%;
+    }
 }
-.HeaderClass img{
-    position: relative;
-    width: 100%;
-    top: -272px;
-    z-index: -1;
-}
-.HeaderClass p{
-    position: absolute;
-    color: white;
-    font-family: 'font_1';
-    top: 40%;
-    left: 20%;
-    font-weight: 400;
-    font-size: 75px;
-    width: 60%;
-    text-align: center;
-    z-index: 1;
+/* móvil */
+@media (max-width: 1243px) {
+    .HeaderClass{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30vh;
+        width: 100%;
+        overflow: hidden;
+        background-image: url(../../../assets/imgs/Copainala.jpg);
+        background-position: center center;
+        background-size: 100%;
+    }
+
+    .HeaderClass p {
+        text-align: center;
+        color: white;
+        font-family: 'font_1';
+        font-weight: 400;
+        font-size: 35px;
+        width: 60%;
+    }
 }

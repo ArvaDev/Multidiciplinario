@@ -1,37 +1,83 @@
-.Ubication{
-    background: #eeeeee;
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding: 20px 0;
-    margin-top: 40px;
-    justify-content: center;
+/* escritorio */
+@media (min-width: 1244px) {
+    .Ubication{
+        background: #eeeeee;
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+        margin-top: 40px;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .Ubication div{
+        margin: 20px;
+    }
+    .UbData{
+        display: inline-block;
+        width: 20%;
+    }
+    .UbData div{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .UbData .icon{
+        font-size: 30px;
+        margin: 10px;
+    }
+    
+    .UbMap{
+        width: 40%;
+    }
+    .UbData h3{
+        margin: 20px 0;
+        width: 70%;
+        font-size: 15px;
+        font-weight: 300;
+    }
 }
-.Ubication div{
-    margin: 20px;
-}
-.UbData{
-    display: inline-block;
-    width: 20%;
-}
-.UbData div{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin: 0;
-}
-.UbData .icon{
-    font-size: 30px;
-    margin: 10px;
-}
-
-.UbMap{
-    width: 40%;
-}
-.UbData h3{
-    margin: 20px 0;
-    width: 70%;
-    font-size: 15px;
-    font-weight: 300;
+/* móvil */
+@media (max-width: 1243px) {
+    .Ubication{
+        background: #eeeeee;
+        height: 85vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        margin-top: 40px;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .Ubication div{
+        margin: 0;
+    }
+    .UbData{
+        display: inline-block;
+        width: 100%;
+    }
+    .UbData div{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .UbData .icon{
+        font-size: 30px;
+        margin: 10px;
+    }
+    
+    .UbMap{
+        width: 100%;
+    }
+    .UbData h3{
+        margin: 20px 0;
+        width: 70%;
+        font-size: 15px;
+        font-weight: 300;
+    }
 }

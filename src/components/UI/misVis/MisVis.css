@@ -1,8 +1,24 @@
-.MisVisClass{
-    height: 40vh;
-    width: 100%;
-    background: #3c8a4d;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* escritorio */
+@media (min-width: 1244px) {
+    .MisVisClass{
+        height: 40vh;
+        width: 100%;
+        background: #3c8a4d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+}
+/* móvil */
+@media (max-width: 1243px) {
+    .MisVisClass{
+        height: 40vh;
+        width: 100%;
+        background: #3c8a4d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
 }

@@ -1,8 +1,10 @@
 .InfoClass{
+    width: 100%;
     display: inline-block;
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 .InfoClass p{
     margin: 20px 0;
