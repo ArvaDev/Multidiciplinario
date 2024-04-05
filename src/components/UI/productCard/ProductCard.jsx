@@ -7,7 +7,7 @@ export default function ProductCard({img, content, title}) {
             <div className="Container">
                 <p className="Title">{title}</p>
                 <p className="ContainerText">{content}</p>
-                <Btn text="Leer más"/>
+                <Btn text="Leer más" cssClass="ProductBtn"/>
             </div>
         </div>
     );

@@ -1,52 +1,107 @@
-.AboutPageClass{
-    margin-top: 12vh;
-    width: 100%;
-    text-align: center;
-    height: 90vh;
-}
-.AContainClass{
-    display: flex;
-    justify-content: center;
-}
-.info{
-    width: 45%;
-    text-align: justify;
-    margin: 50px 70px;
+/* escritorio */
+@media (min-width: 1244px) {
+    .AboutPageClass {
+        margin-top: 12vh;
+        width: 100%;
+        text-align: center;
+        height: 90vh;
+    }
+
+    .AContainClass {
+        display: flex;
+        justify-content: center;
+    }
+
+    .info {
+        width: 45%;
+        text-align: justify;
+        margin: 50px 70px;
+    }
+
+    .info .infoImgs {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info p {
+        font-size: 20px;
+        color: #3f3f3f;
+        line-height: 1.5;
+    }
+
+    .info h3 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .AboutPageClass .Title {
+        font-size: 40px;
+        padding: 20px;
+        color: white;
+        background: #3c8a4d;
+    }
+
+    .ImagesAClass {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+
+    .ImagesAClass .ImagesAClassImg {
+        height: 90%;
+    }
+
+    .AboutPageClass h3 {
+        font-size: 50px;
+        margin: 20px;
+        font-weight: 300;
+    }
 }
 
-.info .infoImgs{
-    display: flex;
-    justify-content: space-between;
-}
+/* móvil */
+@media (max-width: 1243px) {
+    .AboutPageClass {
+        margin-top: 10vh;
+        width: 100%;
+    }
 
-.info p{
-    font-size: 20px;
-    color: #3f3f3f;
-    line-height: 1.5;
-}
-.info h3{
-    text-align: center;
-    width: 100%;
-}
-.AboutPageClass .Title{
-    font-size: 40px;
-    padding: 20px;
-    color: white;
-    background: #3c8a4d;
-}
-.ImagesAClass{
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    margin-top: 20px;
-}
-.ImagesAClass .ImagesAClassImg{
-    height: 90%;
-}
-.AboutPageClass h3{
-    font-size: 50px;
-    margin: 20px;
-    font-weight: 300;
+    .AContainClass{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .infoImgs {
+        display: none;
+    }
+
+    .ImagesAClass{
+        width: 90%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .ImagesAClass img{
+        width: 100%;
+    }
+
+    .AboutPageClass .info {
+        text-align: center;
+        width: 90%;
+    }
+
+    .AboutPageClass h3 {
+        font-size: 50px;
+        margin: 20px;
+        font-weight: 300;
+    }
+
+    .info p {
+        font-size: 20px;
+        color: #3f3f3f;
+        line-height: 1.5;
+    }
 }

@@ -1,26 +1,58 @@
-.ProductCard{
-    width: 40%;
-    height: 40vh;
-    margin: 30px;
-    background: #d3d3d3;
-    overflow: hidden;
-    display: flex;
+/* escritorio */
+@media (min-width: 1244px) {
+    .ProductCard{
+        width: 45%;
+        height: 40vh;
+        margin: 10px 5px;
+        background: #d3d3d3;
+        overflow: hidden;
+        display: flex;
+    }
+    .ProductCard img{
+        width: 50%;
+    }
+    .ProductCard .Container{
+        width: 50%;
+        padding: 30px;
+    }
+    .ProductCard .Container .Title{
+        font-size: 15px;
+        font-family: Georgia;
+        color: #1d1d1d;
+    }
+    .ProductCard .Container .ContainerText{
+        font-size: 14px;
+        margin: 20px 0;
+        line-height: 1.5;
+        text-align: justify;
+    }
 }
-.ProductCard img{
-    width: 50%;
-}
-.ProductCard .Container{
-    width: 50%;
-    padding: 30px;
-}
-.ProductCard .Container .Title{
-    font-size: 15px;
-    font-family: Georgia;
-    color: #1d1d1d;
-}
-.ProductCard .Container .ContainerText{
-    font-size: 18px;
-    margin: 20px 0;
-    line-height: 1.5;
-    text-align: justify;
+/* móvil */
+@media (max-width: 1243px) {
+    .ProductCard{
+        width: 90%;
+        height: 40vh;
+        margin: 30px;
+        background: #d3d3d3;
+        overflow: hidden;
+        display: flex;
+    }
+    .ProductCard img{
+        width: 50%;
+    }
+    .ProductCard .Container{
+        width: 50%;
+        padding: 30px;
+    }
+    .ProductCard .Container .Title{
+        font-size: 15px;
+        font-family: Georgia;
+        color: #1d1d1d;
+    }
+    .ProductCard .Container .ContainerText{
+        font-size: 11px;
+        margin: 20px 0;
+        line-height: 1.5;
+        text-align: justify;
+    }
 }

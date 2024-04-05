@@ -1,16 +1,38 @@
-.InputClass{
-    color: black;
-    border: none;
-    height: 50px;
-    padding-left: 2%;
-    width: 98%;
-    border: solid black 1px;
-    outline: none;
-    margin: 10px 0;
-
-    transition: .5s;
+/* escritorio */
+@media (min-width: 1244px) {
+    .InputClass{
+        color: black;
+        border: none;
+        height: 50px;
+        padding-left: 2%;
+        width: 98%;
+        border: solid black 1px;
+        outline: none;
+        margin: 10px 0;
+    
+        transition: .5s;
+    }
+    
+    .InputClass:hover{
+        border: solid 1px;
+    }
 }
-
-.InputClass:hover{
-    border: solid 1px;
+/* móvil */
+@media (max-width: 1243px) {
+    .InputClass{
+        color: black;
+        border: none;
+        height: 50px;
+        padding-left: 2%;
+        width: 98%;
+        border: solid black 1px;
+        outline: none;
+        margin: 10px 0;
+        font-size: 20px;
+        transition: .5s;
+    }
+    
+    .InputClass:hover{
+        border: solid 1px;
+    }
 }

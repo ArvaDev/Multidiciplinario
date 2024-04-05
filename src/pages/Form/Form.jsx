@@ -11,16 +11,16 @@ export default function Forms() {
             <div className='totalFormContainer'>
                 <div className='formSection'>
                     <div className='locationCard'>
-                    <h1>Contacto</h1>
-                        <IconCard texto="calle primera oriente norte 136 barrio santa Ana Copainalá, Chiapas" icono={<FaSearchLocation/>}/>
-                        <IconCard texto="968-661-1015 " icono={<FaPhone/>}/>
-                        <IconCard texto="jotiquetz@yahoo.com.mx" icono={<FaMailBulk/>} />
+                        <h1>Contacto</h1>
+                        <IconCard texto="calle primera oriente norte 136 barrio santa Ana Copainalá, Chiapas" icono={<FaSearchLocation />} />
+                        <IconCard texto="968-661-1015 " icono={<FaPhone />} />
+                        <IconCard texto="jotiquetz@yahoo.com.mx" icono={<FaMailBulk />} />
                     </div>
                     <form className="FormClassCont">
                         <h1>Entremos en contacto</h1>
-                        <Input placeholder="Ingrese su nombre"/>
-                        <Input placeholder="Ingrese su e-mail"/>
-                        <Input placeholder="Asunto"/>
+                        <Input placeholder="Ingrese su nombre" />
+                        <Input placeholder="Ingrese su e-mail" />
+                        <Input placeholder="Asunto" />
                         <TextArea placeholder="Su mensaje" />
                         <button className='BtnClass' type="submit">Enviar</button>
                     </form>

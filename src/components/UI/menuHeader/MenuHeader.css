@@ -38,7 +38,7 @@
     .menuHeader {
         position: fixed;
         top: 0;
-        padding: 10px 0;
+        padding: 1vh 0;
         background: white;
         width: 100%;
         z-index: 4000;

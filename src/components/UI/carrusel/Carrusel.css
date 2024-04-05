@@ -1,25 +1,56 @@
-.CarruselClass{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+/* escritorio */
+@media (min-width: 1244px) {
+    .CarruselClass{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .CarruselClass .Container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        transition: transform 0.5s ease;
+        overflow: hidden;
+    }
+    .CarruselClass button{
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        background: white;
+        border: none;
+        font-size: 30px;
+        z-index: 1000;
+        cursor: pointer;
+    }
 }
-.CarruselClass .Container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    transition: transform 0.5s ease;
-    overflow: hidden;
-}
-.CarruselClass button{
-    width: 60px;
-    height: 60px;
-    border-radius: 100px;
-    background: white;
-    border: none;
-    font-size: 30px;
-    z-index: 1000;
-    cursor: pointer;
+/* móvil */
+@media (max-width: 1243px) {
+    .CarruselClass{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .CarruselClass .Container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        transition: transform 0.5s ease;
+        overflow: hidden;
+    }
+    .CarruselClass button{
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        background: white;
+        border: none;
+        font-size: 30px;
+        z-index: 1000;
+        cursor: pointer;
+    }
 }
