@@ -7,12 +7,7 @@
 }
 .formSection{
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-.locationCard{
-    width: 30%;
-    margin: 10vh 0;
 }
 .locationCard h1{
     font-weight: 300;
@@ -43,9 +38,8 @@ a{
 @media (min-width: 1244px) {
     .locationCard{
         position: relative;
-        margin: 30px 0;
+        margin: 40px 0;
         width: 35%;
-        left: 5%;
     }
     .FormClassCont{
         width: 60%;
