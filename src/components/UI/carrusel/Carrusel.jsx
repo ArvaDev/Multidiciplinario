@@ -3,7 +3,6 @@ import { useState } from 'react';
 
 export default function Carrusel({ componentes }) {
     const [cardIndex, setCardIndex] = useState(0);
-    console.log(window.innerWidth)
     const cardsToShow = window.innerWidth <= 1243 ? 2 : 4;
     const previusCard = () => {
         const newIndex = Math.max(0, cardIndex - 1);

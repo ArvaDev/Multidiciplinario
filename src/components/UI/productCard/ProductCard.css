@@ -3,13 +3,14 @@
     .ProductCard{
         width: 45%;
         height: 40vh;
-        margin: 10px 5px;
-        background: #d3d3d3;
+        background: rgb(250, 250, 250);
         overflow: hidden;
         display: flex;
+        box-shadow: 1px 0px 10px 0px rgb(60, 60, 60);
     }
     .ProductCard img{
         width: 50%;
+        object-fit: cover;
     }
     .ProductCard .Container{
         width: 50%;
@@ -36,6 +37,7 @@
         background: #d3d3d3;
         overflow: hidden;
         display: flex;
+        box-shadow: 1px 0px 10px 0px rgb(60, 60, 60);
     }
     .ProductCard img{
         width: 50%;

@@ -1,16 +1,28 @@
 import './Tienda.css'
 import MenuHeader from '../../components/UI/menuHeader/MenuHeader';
-import Carrusel from '../../components/UI/carrusel/Carrusel';
 import Producto from "../../components/UI/producto/Producto";
-import { dataApi } from '../../utils/api/dataApi'
+import { getProducts } from "../../Services/Products";
+import Galeria from '../../components/UI/GaleriaImg/Galeria';
+import { useEffect, useState } from "react";
 
 export default function Tienda() {
-    const keys = Object.keys(dataApi);
+    const [products, setProducts] = useState([]);
 
-    const componentes = keys.map((key) => {
-        const productoData = dataApi[key];
+    useEffect(()=>{
+            const fetchProducts = async ()=>{
+                try {
+                const productsData = await getProducts();
+                setProducts(productsData);
+                } catch (error) {
+                console.log(error); 
+                }
+            }
+            fetchProducts();
+    },[])
+
+    const componentes = products.map((product) => {
         return (
-            <Producto nombre={productoData.nombre} image={productoData.imagen} precio={productoData.precio} />
+            <Producto nombre={product.name} image={product.imgUrl} precio={product.price} key={product._id} />
         );
     });
 
@@ -20,7 +32,7 @@ export default function Tienda() {
             <div className='Container'> 
                 <p className='T'>Explora la colección</p>
                 <p className='P'>Descubra sus productos favoritos</p>
-                <Carrusel componentes={componentes}/>
+                <Galeria componentes={componentes}/>
             </div>
         </div>
     );

@@ -14,7 +14,7 @@ function About() {
             <div className='AboutPageClass'>
                 <div className='AContainClass'>
                     <div className='info'>
-                        <h3 style={{fontSize: "40px"}}>PIMIENTA JOTIQUEZ S.C.L.</h3>
+                        <h3 style={{fontSize: "40px", fontFamily: "Cormorant Garamond"}}>PIMIENTA JOTIQUEZ S.C.L.</h3>
                         <div className='infoImgs'>
                             <img src={imgIcon1} width={75}></img>
                             <img src={imgIcon2} width={75}></img>

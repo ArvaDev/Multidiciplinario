@@ -4,7 +4,7 @@ import { dataApi } from '../../utils/api/dataApi'
 import './Productos.css'
 
 export default function Productos() {
-
+ 
     const keys = Object.keys(dataApi)
 
     return (

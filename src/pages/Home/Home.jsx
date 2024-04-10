@@ -13,7 +13,7 @@ function Home() {
         <>                
         <MenuHeader />
             <div className="HomeContainer">
-                <Header />
+                <Header/>
                 <AboutHome />
                 <MisVis />
                 <Historia />

@@ -1,3 +1,4 @@
+
 @media (min-width: 1244px) {
     .AboutClass {
         width: 100%;
@@ -17,6 +18,7 @@
 
     .AboutTitle {
         font-size: 40px;
+   
     }
 
     .AboutCont {

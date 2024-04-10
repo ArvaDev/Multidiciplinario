@@ -1,4 +1,9 @@
+
 @media (min-width: 1244px) {
+  .line-purple{
+    border-top: 3px solid purple;
+
+}
     .menuHeader {
         position: fixed;
         top: 0;
@@ -35,6 +40,7 @@
 
 /* móvil */
 @media (max-width: 1243px) {
+    
     .menuHeader {
         position: fixed;
         top: 0;
@@ -45,11 +51,11 @@
         color: black;
     }
 
-    .menuHeader h1{
+    .menuHeader h1 {
         display: none;
     }
 
-    .menuHeader div{
+    .menuHeader div {
         display: flex;
         align-items: center;
         justify-content: center;

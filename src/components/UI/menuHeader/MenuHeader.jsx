@@ -6,7 +6,7 @@ function MenuHeader() {
     return (
         <div className="menuHeader">
             <h1>PIMIENTA JOTIQUEZ S.C.L.</h1>
-            <div>
+            <div className='line-purple'>
                 <LinksForPos text={data.header.menu[0]} tColor="black" url="/"/> 
                 <LinksForPos text={data.header.menu[1]} tColor="black" url="/About" />
                 <LinksForPos text={data.header.menu[2]} tColor="black" url="/Pimienta"/>

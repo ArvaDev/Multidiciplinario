@@ -2,7 +2,6 @@
 @media (min-width: 1244px) {
     .ProductoClass{
         width: 35%;
-        margin: 0 30px;
         max-width: 300px;
         height: 50vh;
         overflow: hidden;
