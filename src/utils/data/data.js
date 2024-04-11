@@ -66,6 +66,7 @@ export const data = {
     },
     footer:{
         localidades: ["Copainala, Chiapas", "Tuxtla Gutierrez, Chiapas", "Ciudad de México"],
+        ayuda:["Video tutorial", "Manual de usuario"],
         legalidad: ["Terminos y Condiciones", "Privacidad", "Ayuda"]
     }
 }

@@ -7,9 +7,9 @@ function Footer() {
         <div className='FooterClass'>
             <div className='FooterClassCont'>
                 <div className='FooterClassInfo'>
-                    <p className='titleFoot'>Quienes somos</p>
-                    <LinksForPos text={data.header.menu[1]} tColor="white"/>
-                    <LinksForPos text={data.header.menu[2]} url="/About" tColor="white"/>
+                    <p className='titleFoot'>Ayuda</p>
+                    <LinksForPos text={data.footer.ayuda[0]} tColor="white"/>
+                    <LinksForPos text={data.footer.ayuda[1]} tColor="white"/>
                 </div>
                 <div className='FooterClassInfo'>
                     <p className='titleFoot'>Localidades</p>
