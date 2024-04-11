@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+input{
+    outline: none;
+}
 
 @font-face {
     font-family:'font_1';

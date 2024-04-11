@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+import Carrito from '../../components/UI/carrito/Carrito';
 import Btn from '../../components/UI/btn/Btn';
 import { Link } from 'react-router-dom';
 import './ProductPage.css';
-
-const ProductPage = ({ view, o }) => {
+export default function ProductPage ({ view, o }) {
   const handler = () => {/* Corto */}
   const handler2 = () => {/*Funcion de corte*/}
   return (
     <div className='ProductPageClass' style={{ display: view }}>
+      <Carrito/>
       <Link onClick={`${handler} ${handler2}`} className='Volver' to="/Tienda">{"< Volver"}</Link>
       <div className='ContainerPr'>
         <div className='ContainerChild'>
@@ -25,5 +25,3 @@ const ProductPage = ({ view, o }) => {
     </div>
   );
 };
-
-export default ProductPage;

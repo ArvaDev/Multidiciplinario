@@ -1,7 +1,6 @@
 .ProductPageClass{
     margin-top: 6vh;
-    z-index: 1000;
-    position: absolute;
+    z-index: 998;
     top: 0;
     left: 0;
     width: 100%;
@@ -12,7 +11,7 @@
     cursor: auto;
 }
 .ProductPageClass .Volver{
-    width: 70%;
+    width: 90%;
     font-weight: 400;
     font-size: 24px;
     margin: 20px 0;
@@ -24,6 +23,7 @@
 .ProductPageClass .ContainerPr{
     width: 70%;
     height: 70%;
+    margin-right: 20%;
 }
 .ContainerPr .ContainerChild{
     width: 50%;
@@ -71,7 +71,9 @@
 @media (min-width: 1244px) {
     .ProductPageClass{
         background: white;
-        height: 100%;
+        height: 80vh;
+        position: fixed;
+        margin-top: 16vh;
     }
     .ProductPageClass .ContainerPr{
         display: flex;
