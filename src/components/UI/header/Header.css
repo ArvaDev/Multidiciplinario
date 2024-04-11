@@ -12,7 +12,7 @@
         background-image: url(../../../assets/imgs/Copainala.jpg);
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
     }
 
     .HeaderClass p {
@@ -21,7 +21,7 @@
         font-family: "Cormorant Garamond", serif;
         font-weight: 400;
         font-size: 72px;
-        width: 50%;
+        width: 40%;
         padding: 0 25%;
     }
 }
@@ -44,8 +44,8 @@
         color: white;
         font-family: "Cormorant Garamond", serif;
         font-weight: 400;
-        font-size: 30px;
-        width: 50%;
+        font-size: 25px;
+        width: 100%;
         padding: 0 25%;
     }
 }

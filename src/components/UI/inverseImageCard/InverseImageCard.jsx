@@ -1,9 +1,9 @@
 import './InverseImageCard.css'
 import Btn from '../btn/Btn'
 
-function ImageCard({ image, imageIcon, imageBG, titulo, cont, url, subtitle }) {
+function ImageCard({ image, imageIcon, imageBG, titulo, cont, url, subtitle, custoClass}) {
     return (
-        <div className='ImageCardTotalContainerI'>
+        <div className={`ImageCardTotalContainerI ${custoClass}`} style={{backgroundImage: `url(${imageBG})`}}>
             <div className="ImageCardClassI">
                 <div className='ContTextI'>
                     <p className='titleI'>{titulo}</p>
@@ -18,7 +18,6 @@ function ImageCard({ image, imageIcon, imageBG, titulo, cont, url, subtitle }) {
                     <img src={image} className='img-card-historia'></img>
                 </div>
             </div>
-            <img className='imgBGI' src={imageBG}/>
         </div>
     );
 }

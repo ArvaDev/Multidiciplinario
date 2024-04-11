@@ -1,5 +1,6 @@
 import './ProductCard.css'
 export default function ProductCard({img, content, title}) {
+
     return (
         <div className="ProductCard">
             <img src={img}/>

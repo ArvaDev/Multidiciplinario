@@ -4,10 +4,11 @@ import Producto from "../../components/UI/producto/Producto";
 import { getProducts } from "../../Services/Products";
 import Galeria from '../../components/UI/GaleriaImg/Galeria';
 import { useEffect, useState } from "react";
+//Es una simulación se eliminara más tarde
+import { dataApi } from '../../utils/api/dataApi';
 
 export default function Tienda() {
     const [products, setProducts] = useState([]);
-
     useEffect(()=>{
             const fetchProducts = async ()=>{
                 try {
@@ -19,13 +20,12 @@ export default function Tienda() {
             }
             fetchProducts();
     },[])
-
-    const componentes = products.map((product) => {
+    console.log(dataApi)
+    const componentes = dataApi.map((product) => {
         return (
-            <Producto nombre={product.name} image={product.imgUrl} precio={product.price} key={product._id} />
+            <Producto productoObject={product} />
         );
     });
-
     return (        
         <div className='TiendaClass'>
             <MenuHeader/>

@@ -1,14 +1,22 @@
+import { useState } from 'react'
+import ProductPage from '../../../pages/ProductPage/ProductPage'
 import './Producto.css'
+export default function Producto({productoObject}) {
 
-export default function Producto({image, nombre, precio}) {
+    const [viewPage, setViewPage] = useState('none')
+    const handlerPage = () => {
+        setViewPage('flex')
+    } 
+
     return (
-        <div className='ProductoClass'>
+        <div className='ProductoClass' onClick={handlerPage}>
+            <ProductPage o={productoObject} view={viewPage}/>
             <div className='ContainerImg'>
-                <img src={image}></img>
+                <img src={productoObject.imagen}></img>
             </div>
             <div className='Container'>
-                <p>{nombre}</p>
-                <span>${precio}</span>
+                <p>{productoObject.nombre}</p>
+                <span>${productoObject.precio}</span>
             </div>
         </div>
     );

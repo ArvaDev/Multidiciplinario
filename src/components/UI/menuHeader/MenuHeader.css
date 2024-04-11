@@ -52,7 +52,10 @@
     }
 
     .menuHeader h1 {
-        display: none;
+        width: 100%;
+        font-family: 'font_1';
+        font-size: 20px;
+        text-align: center;
     }
 
     .menuHeader div {

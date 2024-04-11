@@ -1,0 +1,91 @@
+.ProductPageClass{
+    margin-top: 6vh;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: auto;
+}
+.ProductPageClass .Volver{
+    width: 70%;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 20px 0;
+    color: black;
+}
+.ProductPageClass .Volver:hover{
+    color: #3f3f3f;
+}
+.ProductPageClass .ContainerPr{
+    width: 70%;
+    height: 70%;
+}
+.ContainerPr .ContainerChild{
+    width: 50%;
+    height: 100%;
+    img{
+        width: 100%;
+        height: 100%;
+        border: solid 1px #555555;
+    }
+    input{
+        width: 20%;
+        height: 30px;
+        padding: 0 1%;
+        margin: 0 4%;
+        outline: none;
+    }
+    p{
+        margin: 10px 4%;
+        color: #4d4d4d;
+    }
+    .Title{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .Precio{
+        font-size: 22px;
+    }
+    .Info{
+        line-height: 1.5;
+    }
+    .ProductBtn{
+        margin: 4%;
+        width: 92%;
+        background: #936c2c;
+        border: 1px solid white;
+    }
+    .ProductBtn:hover{
+        background: white;
+        border: 1px solid #936c2c;
+        color: #936c2c;
+    }
+}
+
+/* escritorio */
+@media (min-width: 1244px) {
+    .ProductPageClass{
+        background: white;
+        height: 100%;
+    }
+    .ProductPageClass .ContainerPr{
+        display: flex;
+        background: white;
+    }
+}
+/* móvil */
+@media (max-width: 1243px) {
+    .ProductPageClass{
+        margin-top: 11vh;
+        padding-bottom: 100px;
+        background: white;
+    }
+    .ContainerPr .ContainerChild{
+        width: 100%;
+    }
+}
