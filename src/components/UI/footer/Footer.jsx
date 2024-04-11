@@ -9,7 +9,7 @@ function Footer() {
                 <div className='FooterClassInfo'>
                     <p className='titleFoot'>Ayuda</p>
                     <LinksForPos text={data.footer.ayuda[0]} tColor="white"/>
-                    <LinksForPos text={data.footer.ayuda[1]} tColor="white"/>
+                    <LinksForPos text={data.footer.ayuda[1]} url="/Manual" tColor="white"/>
                 </div>
                 <div className='FooterClassInfo'>
                     <p className='titleFoot'>Localidades</p>
