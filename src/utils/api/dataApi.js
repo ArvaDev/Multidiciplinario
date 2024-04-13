@@ -27,4 +27,39 @@ export const dataApi = [
         "informacion": "Nuestra pimienta molida se obtiene de granos de pimienta negra de alta calidad, cuidadosamente molidos para preservar su sabor y aroma. Con su característico toque picante y notas terrosas, es el condimento perfecto para sazonar una amplia variedad de platos, desde carnes a la parrilla hasta sopas y guisos.",
         "imagen": "https://licace.com.mx/wp-content/uploads/2020/12/pimienta-negra-molida-1.jpg"
     },
+    {
+        "nombre": "Pimienta Molida",
+        "precio": 10,
+        "disponible": 75,
+        "informacion": "Nuestra pimienta molida se obtiene de granos de pimienta negra de alta calidad, cuidadosamente molidos para preservar su sabor y aroma. Con su característico toque picante y notas terrosas, es el condimento perfecto para sazonar una amplia variedad de platos, desde carnes a la parrilla hasta sopas y guisos.",
+        "imagen": "https://licace.com.mx/wp-content/uploads/2020/12/pimienta-negra-molida-1.jpg"
+    },
+    {
+        "nombre": "Pimienta Molida",
+        "precio": 10,
+        "disponible": 75,
+        "informacion": "Nuestra pimienta molida se obtiene de granos de pimienta negra de alta calidad, cuidadosamente molidos para preservar su sabor y aroma. Con su característico toque picante y notas terrosas, es el condimento perfecto para sazonar una amplia variedad de platos, desde carnes a la parrilla hasta sopas y guisos.",
+        "imagen": "https://licace.com.mx/wp-content/uploads/2020/12/pimienta-negra-molida-1.jpg"
+    },
+    {
+        "nombre": "Pimienta Molida",
+        "precio": 10,
+        "disponible": 75,
+        "informacion": "Nuestra pimienta molida se obtiene de granos de pimienta negra de alta calidad, cuidadosamente molidos para preservar su sabor y aroma. Con su característico toque picante y notas terrosas, es el condimento perfecto para sazonar una amplia variedad de platos, desde carnes a la parrilla hasta sopas y guisos.",
+        "imagen": "https://licace.com.mx/wp-content/uploads/2020/12/pimienta-negra-molida-1.jpg"
+    },
+    {
+        "nombre": "Pimienta Molida",
+        "precio": 10,
+        "disponible": 75,
+        "informacion": "Nuestra pimienta molida se obtiene de granos de pimienta negra de alta calidad, cuidadosamente molidos para preservar su sabor y aroma. Con su característico toque picante y notas terrosas, es el condimento perfecto para sazonar una amplia variedad de platos, desde carnes a la parrilla hasta sopas y guisos.",
+        "imagen": "https://licace.com.mx/wp-content/uploads/2020/12/pimienta-negra-molida-1.jpg"
+    },
+    {
+        "nombre": "Pimienta Molida",
+        "precio": 10,
+        "disponible": 75,
+        "informacion": "Nuestra pimienta molida se obtiene de granos de pimienta negra de alta calidad, cuidadosamente molidos para preservar su sabor y aroma. Con su característico toque picante y notas terrosas, es el condimento perfecto para sazonar una amplia variedad de platos, desde carnes a la parrilla hasta sopas y guisos.",
+        "imagen": "https://licace.com.mx/wp-content/uploads/2020/12/pimienta-negra-molida-1.jpg"
+    },
 ]

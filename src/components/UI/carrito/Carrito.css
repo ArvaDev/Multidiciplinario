@@ -1,5 +1,7 @@
 .CarritoClass{
     position: fixed;
+    overflow: hidden;
+    overflow-y: scroll;
     right: 0;
     top: 0;
     width: 25%;
@@ -17,19 +19,36 @@
     justify-content: center;
     background: black;
 }
+.Btn{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
 .CarritoClass .Contain{
     width: 100%;
-    overflow-y: auto;
     .Total{
         position: absolute;
         width: 100%;
         padding: 20px 0;
-        bottom: 0;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         color: white;
         font-size: 20px;
         background: black;
+
+        .Btn{
+            font-size: 20px;
+            padding: 10px;
+            background: #936c2c;
+            color: white;
+        }
+        .Btn:hover{
+            background: white;
+            color: black;
+        }
     }
 }

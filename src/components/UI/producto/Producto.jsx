@@ -12,11 +12,11 @@ export default function Producto({productoObject}) {
         <div className='ProductoClass' onClick={handlerPage}>
             <ProductPage o={productoObject} view={viewPage}/>
             <div className='ContainerImg'>
-                <img src={productoObject.imagen}></img>
+                <img src={productoObject.imgUrl}></img>
             </div>
             <div className='Container'>
-                <p>{productoObject.nombre}</p>
-                <span>${productoObject.precio}</span>
+                <p>{productoObject.name}</p>
+                <span>${productoObject.price}</span>
             </div>
         </div>
     );
