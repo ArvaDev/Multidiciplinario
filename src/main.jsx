@@ -11,6 +11,7 @@ import Production from './pages/Productos/Productos';
 import Tienda from './pages/Tienda/Tienda'
 import Manual from './pages/Manual/Manual';
 import NoFound from './pages/NoFound/NoFound';
+import Carrito from './pages/Carrito/Carrito';
 
 const router = createBrowserRouter([
   {
@@ -46,9 +47,14 @@ const router = createBrowserRouter([
     element: <Manual/>
   },
   {
+    path: '/Tienda/Carrito',
+    element: <Carrito/>
+  },
+  {
     path: "*",
     element: <NoFound/>
   },
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

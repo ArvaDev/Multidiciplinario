@@ -1,10 +1,9 @@
-import './Carrito.css';
-import React, { useState, useEffect } from 'react';
-import ProductCarrito from '../productCarrito/ProductCarrito';
-import { TbShoppingCartCheck } from "react-icons/tb";
+import './Carrito.css'
+import { useEffect, useState } from 'react';
+import ProductCarrito from '../../components/UI/productCarrito/ProductCarrito'
+import { FaShoppingCart } from "react-icons/fa";
 export default function Carrito() {
     const [dataApi, setDataApi] = useState([]);
-    let totalPrecio = 0;
     useEffect(() => {
         function convertirJSONaObjetos(objeto) {
             for (var clave in objeto) {
@@ -26,17 +25,14 @@ export default function Carrito() {
         console.log(localStorageMap);
         setDataApi(Object.values(localStorageMap));
     }, []);
+
     return (
-        <div className='CarritoClass'>
-            <div className='H'>Carrito</div>
-            <div className='Contain'>
+        <div className='CarritoClassP'>
+            <div className='Header'>Carrito <FaShoppingCart/></div>
+            <div className='Container'>
                 {dataApi.map((producto, index) => (
                     <ProductCarrito key={index} o={producto} />
                 ))}
-                <div className='Total'>
-                    SubTotal: ${totalPrecio.toFixed(2)}
-                    <button className="Btn"><TbShoppingCartCheck /></button>
-                </div>
             </div>
         </div>
     );

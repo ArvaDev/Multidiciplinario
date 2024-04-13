@@ -23,7 +23,6 @@
 .ProductPageClass .ContainerPr{
     width: 70%;
     height: 70%;
-    margin-right: 20%;
 }
 .ContainerPr .ContainerChild{
     width: 50%;
@@ -78,6 +77,21 @@
     .ProductPageClass .ContainerPr{
         display: flex;
         background: white;
+    }
+    .RedirectCarrito{
+        background: #936c2c;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        border: #936c2c solid 1px;
+        width: 12%;
+        margin: 4%;
+    }
+    .RedirectCarrito:hover{
+        background: white;
+        color: #936c2c;
     }
 }
 /* móvil */

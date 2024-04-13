@@ -18,7 +18,6 @@ export default function Tienda() {
             }
             fetchProducts();
     },[])
-
     const componentes = products.map((product) => {
         return (
             <Producto productoObject={product} />
