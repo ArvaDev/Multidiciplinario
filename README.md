@@ -1,6 +1,5 @@
 # React + Vite
-
-
+Vista del cliente y tienda online
 Alumnos:
 
 -- Armando Rodríguez Villarreal
