@@ -42,8 +42,7 @@ export default function Carrito() {
             });
         }
         setProductArrya(productos)
-    };
-    
+    };   
     return (
         <div className='CarritoClassP'>
             <FormularioCompra state={compForm} productos={productArrya}/>
