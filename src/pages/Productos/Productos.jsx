@@ -7,20 +7,19 @@ import './Productos.css'
 export default function Productos() {
 
     const [products, setProducts] = useState([]);
-    useEffect(()=>{
-            const fetchProducts = async ()=>{
-                try {
-                    const productsData = await getProducts();
+    useEffect(() => {
+        const fetchProducts = async () => {
+            try {
+                const productsData = await getProducts();
                 setProducts(productsData);
-                } catch (error) {
-                    console.log(error); 
-                }
+            } catch (error) {
+                console.log(error);
             }
-            fetchProducts();
-    },[])
- 
+        }
+        fetchProducts();
+    }, [])
+
     const keys = Object.keys(products)
-    console.log(products)
 
     return (
         <div className="Production">
@@ -29,9 +28,9 @@ export default function Productos() {
                 <p className="T">Los productos de PIMIENTA JOTIQUEZ S.C.L.</p>
                 <p className="C">La calidad es primero</p>
                 <div className="Products">
-                    { keys.map(key => (
+                    {keys.map(key => (
                         <ProductCard img={products[key].imgUrl} title={products[key].name} content={products[key].description}/>
-                    )) }
+                    ))}
                 </div>
             </div>
         </div>

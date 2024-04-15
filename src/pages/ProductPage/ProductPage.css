@@ -78,7 +78,7 @@
         display: flex;
         background: white;
     }
-    .RedirectCarrito{
+    .Comprar{
         background: #936c2c;
         color: white;
         display: flex;
@@ -88,8 +88,10 @@
         border: #936c2c solid 1px;
         width: 12%;
         margin: 4%;
+        cursor: pointer;
+        transition: .2s;
     }
-    .RedirectCarrito:hover{
+    .Comprar:hover{
         background: white;
         color: #936c2c;
     }

@@ -29,6 +29,7 @@ export default function Tienda() {
             <div className='Container'> 
                 <p className='T'>Explora la colección</p>
                 <p className='P'>Descubra sus productos favoritos</p>
+                <p className='Carro'><a href='/Tienda/Carrito'>Ver el tu carrito de compras</a></p>
                 <Galeria componentes={componentes}/>
             </div>
         </div>
