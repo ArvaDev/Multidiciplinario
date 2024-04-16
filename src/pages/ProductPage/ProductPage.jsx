@@ -7,14 +7,15 @@ import './ProductPage.css';
 export default function ProductPage({ view, o }) {
   const [quantity, setQuantity] = useState(0);
   const [comprar, setComprar] = useState("none")
-  const [newProduct, setNewProduct] = useState('')
+  let isInStock
+  const [newProduct, setNewProduct] = useState({})
   const handleQuantityChange = (e) => {
     const value = e.target.value;
     setQuantity(value);
   };
-
+  isInStock = o.amount === 0 ? true : false
   const handleAddToCart = () => {
-    if (quantity !== 0) {
+    if (quantity !== 0 && quantity != 0) {
       const newObject = {
         name: o.name,
         price: o.price,
@@ -35,7 +36,7 @@ export default function ProductPage({ view, o }) {
   };
 
   const comprarHandler = () => {
-    if (quantity !== 0) {
+    if (quantity !== 0 && quantity != 0) {
       const newObject = {
         name: o.name,
         price: o.price,
@@ -49,7 +50,6 @@ export default function ProductPage({ view, o }) {
       alert("Por favor, ¿Cuántos productos va a comprar?");
     }
   }
-
   return (
     <div className='ProductPageClass' style={{ display: view }}>
       <FormularioCompra state={comprar} productos={newProduct} />
@@ -63,7 +63,7 @@ export default function ProductPage({ view, o }) {
           <p className='Precio'>${o.price}</p>
           <p>En disponibilidad {o.amount} unidades</p>
           <p>Añadir a carrito</p>
-          <input type='number' min={1} max={o.amount} onChange={handleQuantityChange} />
+          <input type='number' min={0} max={o.amount} onChange={handleQuantityChange} disabled={isInStock}/>
           <Btn text="Añadir a carrito" cssClass="ProductBtn" onClick={handleAddToCart} />
           <p className='Info'>{o.description}</p>
           <button onClick={comprarHandler} className='Comprar'><FaShoppingCart /></button>

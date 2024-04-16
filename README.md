@@ -1,7 +1,4 @@
 # React + Vite
-
-Tienad online añadida
-
 Alumnos:
 
 -- Armando Rodríguez Villarreal

@@ -3,23 +3,39 @@ import Input from '../../UI/input/Input';
 import Btn from '../btn/Btn';
 import axios from 'axios';
 import './formularioCompra.css';
+
 export default function FormularioCompra({ state, productos }) {
     const [nombre, setNombre] = useState('');
     const [email, setEmail] = useState('');
     const [telefono, setTelefono] = useState('');
+
     const handleCerrar = () => {
         location.reload();
     };
+
     const handleCompra = () => {
         if (!nombre || !email || !telefono) {
             alert('Por favor completa todos los campos antes de realizar la compra');
             return;
         }
-        const productosArray = productos.map(producto => ({
-            idProduct: producto._id,
-            quantity: producto.quantity,
-            total_price: producto.price
-        }));
+        
+        let productosArray = [];
+        if (Array.isArray(productos)) {
+            // Si productos es un arreglo, hacer un map para obtener un nuevo arreglo de productos
+            productosArray = productos.map(producto => ({
+                idProduct: producto._id,
+                quantity: producto.quantity,
+                total_price: producto.price
+            }));
+        } else {
+            // Si productos es un objeto, agregarlo directamente al array de productos
+            productosArray.push({
+                idProduct: productos._id,
+                quantity: productos.quantity,
+                total_price: productos.price
+            });
+        }
+
         setNombre('');
         setEmail('');
         setTelefono('');
@@ -31,6 +47,7 @@ export default function FormularioCompra({ state, productos }) {
             },
             products: productosArray
         };
+        
         axios.post('http://18.233.236.214/api/v1/orders/', compra)
             .then(response => {
                 console.log('Respuesta del servidor:', response.data);
@@ -44,6 +61,7 @@ export default function FormularioCompra({ state, productos }) {
                 location.reload();
             });
     };
+
     return (
         <div className="formularioCompraClass" style={{ display: state }}>
             <div className='ContainForm'>
