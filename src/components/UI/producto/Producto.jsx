@@ -2,12 +2,10 @@ import { useState } from 'react'
 import ProductPage from '../../../pages/ProductPage/ProductPage'
 import './Producto.css'
 export default function Producto({productoObject}) {
-
     const [viewPage, setViewPage] = useState('none')
     const handlerPage = () => {
         setViewPage('flex')
     } 
-
     return (
         <div className='ProductoClass' onClick={handlerPage}>
             <ProductPage o={productoObject} view={viewPage}/>

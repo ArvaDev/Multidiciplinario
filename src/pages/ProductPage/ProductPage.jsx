@@ -26,6 +26,7 @@ export default function ProductPage({ view, o }) {
       localStorage.setItem(`Producto_${newObject.name}`, JSON.stringify(newObject));
       alert("Se ha añadido el producto al carrito");
       window.location.href = '/Tienda/Carrito'
+      console.log(window.location.href)
     } else {
       alert("Por favor, ¿Cuántos productos va a comprar?");
     }
@@ -55,18 +56,18 @@ export default function ProductPage({ view, o }) {
       <FormularioCompra state={comprar} productos={newProduct} />
       <Link onClick={handleClose} className='Volver' to="/Tienda">{"< Volver"}</Link>
       <div className='ContainerPr'>
-        <div className='ContainerChild'>
+        <div className='ContainerChild responsive'>
           <img src={o.imgUrl} alt="Product" />
         </div>
-        <div className='ContainerChild'>
+        <div className='ContainerChild responsiveData'>
           <p className='Title'>{o.name}</p>
           <p className='Precio'>${o.price}</p>
           <p>En disponibilidad {o.amount} unidades</p>
           <p>Añadir a carrito</p>
           <input type='number' min={0} max={o.amount} onChange={handleQuantityChange} disabled={isInStock}/>
           <Btn text="Añadir a carrito" cssClass="ProductBtn" onClick={handleAddToCart} />
-          <p className='Info'>{o.description}</p>
           <button onClick={comprarHandler} className='Comprar'><FaShoppingCart /></button>
+          <p className='Info'>{o.description}</p>
         </div>
       </div>
     </div>

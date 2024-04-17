@@ -30,6 +30,16 @@
 @media (max-width: 1243px) {
     .TiendaClass .Container{
         margin: 15vh 0;
+
+        .Carro{
+            text-align: center;
+            margin: 20px 0;
+            
+            a{
+                font-size: 20px;
+                color: #467dff;
+            }
+        }
     }
     .TiendaClass .T{
         width: 100%;

@@ -4,7 +4,6 @@ import Producto from "../../components/UI/producto/Producto";
 import { getProducts } from "../../Services/Products";
 import Galeria from '../../components/UI/GaleriaImg/Galeria';
 import { useEffect, useState } from "react";
-
 export default function Tienda() {
     const [products, setProducts] = useState([]);
     useEffect(()=>{
@@ -18,6 +17,7 @@ export default function Tienda() {
             }
             fetchProducts();
     },[])
+
     const componentes = products.map((product) => {
         return (
             <Producto productoObject={product} />
@@ -29,7 +29,7 @@ export default function Tienda() {
             <div className='Container'> 
                 <p className='T'>Explora la colección</p>
                 <p className='P'>Descubra sus productos favoritos</p>
-                <p className='Carro'><a href='/Tienda/Carrito'>Ver el tu carrito de compras</a></p>
+                <p className='Carro'><a href='/Tienda/Carrito'>Ver tu carrito de compras</a></p>
                 <Galeria componentes={componentes}/>
             </div>
         </div>

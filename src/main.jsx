@@ -32,27 +32,27 @@ const router = createBrowserRouter([
   },
   {
     path: "/Form",
-    element: <Forms/>
+    element: <Forms />
   },
   {
     path: "/Productos",
-    element: <Production/>
+    element: <Production />
   },
   {
     path: "/Tienda",
-    element: <Tienda/>
+    element: <Tienda />
   },
   {
     path:'/Manual',
-    element: <Manual/>
+    element: <Manual />
   },
   {
     path: '/Tienda/Carrito',
-    element: <Carrito/>
+    element: <Carrito />
   },
   {
     path: "*",
-    element: <NoFound/>
+    element: <NoFound />
   },
   
 ]);

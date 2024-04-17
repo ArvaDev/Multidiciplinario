@@ -3,9 +3,7 @@ import ProductCard from "../../components/UI/productCard/ProductCard";
 import MenuHeader from "../../components/UI/menuHeader/MenuHeader"
 import { getProducts } from "../../Services/Products";
 import './Productos.css'
-
 export default function Productos() {
-
     const [products, setProducts] = useState([]);
     useEffect(() => {
         const fetchProducts = async () => {
@@ -18,9 +16,7 @@ export default function Productos() {
         }
         fetchProducts();
     }, [])
-
     const keys = Object.keys(products)
-
     return (
         <div className="Production">
             <MenuHeader />
